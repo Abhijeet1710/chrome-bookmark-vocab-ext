@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Better Vocab",
+	"author": "Abhijeet7110",
+	"version": "2.0",
+	"description": "Replace new tab screen with English word and meaning",
+	"icons": {
+		"16": "darwinFav16.ico",
+		"48": "darwinFav48.ico",
+		"128": "darwinFav128.ico"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}

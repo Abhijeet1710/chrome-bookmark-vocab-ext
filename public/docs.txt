@@ -1,0 +1,7 @@
+localStorage.setItem('testObject', JSON.stringify(testObject));
+
+ -> testObject is array of objects store into it.
+
+var retrievedObject = localStorage.getItem('testObject');
+
+console.log('retrievedObject: ', JSON.parse(retrievedObject));

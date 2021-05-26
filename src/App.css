@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body, root {
+  margin: 0;
+  padding: 0;
+  background: rgb(192,0,255);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.addBMBtn {
+  padding: 5px 20px;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  border-radius: 4px;
+  background-color: plum;
+}
+
+
+.App {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  padding: 20px 40px;
+  color: white;
+ }
+
+ .backImg {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: 1s ease;
+  cursor: pointer;
+  padding: 5px 5px;
+ }
+
+ .backImg:hover {
+  background-color: plum;
+  transition: 0.5s ease;
+ }
+ 
+ .App input {
+   width: 50%;
+   padding: 9px 20px; 
+  }
+
+.App button {
+  width: 54.2%;
+  padding: 10px 0px;
+  border-radius: 2px;
+  background: transparent;
+  border: none;
+  background-color: plum;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Righteous', cursive;
+}
+
+h3{
+  margin-top: 20px;
+  padding: 0;
+  font-size: 40px;
+  font-family: 'Padauk', sans-serif;
+}
+
+.bookmarks-bar {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-bar {
+  background-color: rgba(221, 160, 221, 0.356);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  padding: 4px 0px;
+}
+
+.single-bookmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.single-bookmark img {
+  width: 40px;
+  height: 40px;
+  transition: 1s ease;
+}
+
+
+
+.single-bookmark img:hover {
+  cursor: pointer;
+  position: relative;
+  bottom: 15px;
+  transition: 1s ease;
+}
